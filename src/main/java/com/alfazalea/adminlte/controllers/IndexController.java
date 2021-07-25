@@ -11,6 +11,14 @@ public class IndexController {
     public String index() {
         return "index";
     }
+    @GetMapping("/dashboard-v2")
+    public String dashboardv2() {
+        return "dashboard/dashboardv2";
+    }
+    @GetMapping("/dashboard-v3")
+    public String dashboardv3() {
+        return "dashboard/dashboardv3";
+    }
 
     @GetMapping("/login")
     public String login() {
