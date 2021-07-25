@@ -20,6 +20,11 @@ public class IndexController {
         return "dashboard/dashboardv3";
     }
 
+    @GetMapping("/widgets")
+    public String widgets() {
+        return "widgets/widgets";
+    }
+
     @GetMapping("/login")
     public String login() {
         return "login";
