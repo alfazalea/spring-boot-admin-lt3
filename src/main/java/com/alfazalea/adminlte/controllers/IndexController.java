@@ -25,6 +25,44 @@ public class IndexController {
         return "widgets/widgets";
     }
 
+    @GetMapping("/charts/chartjs")
+    public String chartChartjs() {
+        return "/charts/chartjs";
+    }
+
+    @GetMapping("/forms/general")
+    public String formGeneral() {
+        return "/forms/general";
+    }
+
+    @GetMapping("/forms/advanced")
+    public String formAdvanced() {
+        return "/forms/advanced";
+    }
+
+    @GetMapping("/forms/editors")
+    public String formEditors() {
+        return "/forms/editors";
+    }
+
+    @GetMapping("/forms/validation")
+    public String formValidation() {
+        return "/forms/validation";
+    }
+
+    @GetMapping("/tables/simple")
+    public String tablesSimple() {
+        return "/tables/simple";
+    }
+    @GetMapping("/tables/data")
+    public String tablesData() {
+        return "/tables/data";
+    }
+    @GetMapping("/tables/jsgrid")
+    public String tablesJsGrid() {
+        return "/tables/jsgrid";
+    }
+
     @GetMapping("/login")
     public String login() {
         return "login";
